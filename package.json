@@ -7,6 +7,9 @@
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --progress --colors",
     "test": "jest --watchAll"
   },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./src/setupTests.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AkyunaAkish/react-testing-practice.git"
@@ -34,6 +37,7 @@
     "node-sass": "^4.9.0",
     "react": "^16.3.2",
     "react-async-component": "^2.0.0",
+    "react-bootstrap": "^0.32.1",
     "react-dom": "^16.3.2",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
